@@ -19,7 +19,7 @@ import { RouterView } from 'vue-router'
             <div class="menu-text cursor-pointer glow" @click.native="$router.push('/')">Home</div>
             <div class="menu-text cursor-pointer glow" @click.native="$router.push('/technologies')">Technologies</div>
             <div class="menu-text cursor-pointer glow" @click.native="$router.push('/portfolio')">Portfolio</div>
-            <div class="menu-text cursor-pointer glow">Contact</div>
+            <div class="menu-text cursor-pointer glow" @click.native="$router.push('/contact')">Contact</div>
           </div>
         </div>
         <div class="rv">

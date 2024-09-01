@@ -3,7 +3,7 @@
 <template>
   <div class="main">
     <div class="content">
-      <div class="text-p">
+      <div class="text">
         I am a junior level software developer with an eye for web design and a heart for customer
         service, looking to make an impact one line of code at a time.
       </div>
@@ -22,5 +22,8 @@
 }
 .content {
   width: 150px;
+}
+.text{
+  font-size: 16px;
 }
 </style>

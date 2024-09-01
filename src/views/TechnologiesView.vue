@@ -76,7 +76,11 @@ export default {
   display: none; /* Safari and Chrome */
 }
 .tech {
-  font-size: 40px;
+  font-size: 36px;
+}
+.tech-d{
+  font-size: 16px;
+  margin-right: 5px;
 }
 @media only screen and (max-width: 1000px) {
   .item {

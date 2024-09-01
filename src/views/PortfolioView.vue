@@ -54,7 +54,7 @@ export default {
   display: none; /* Safari and Chrome */
 }
 .project {
-  font-size: 40px;
+  font-size: 36px;
 }
 @media only screen and (max-width: 1000px) {
   .item {
