@@ -59,8 +59,11 @@ import { RouterView } from 'vue-router'
   height: 100%;
   width: 2vw;
   min-width: 20px;
-  writing-mode: sideways-lr;
-}
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);}
 .content {
   height: 100%;
   width: 96vw;
