@@ -4,36 +4,16 @@ export default {
     return {
       projects: [
         {
-          name: 'Laravel',
-          exp: 2
+          name: 'Eastern Forest Pests',
         },
         {
-          name: 'PHP',
-          exp: 2
+            name: 'FlorestaDB',
         },
         {
-          name: 'React',
-          exp: 1
+            name: 'HealthyWoods',
         },
         {
-          name: 'Swift UI',
-          exp: 3
-        },
-        {
-          name: 'Three JS',
-          exp: 1
-        },
-        {
-          name: 'Vue JS',
-          exp: 3
-        },
-        {
-          name: 'Wix',
-          exp: 3
-        },
-        {
-          name: 'WordPress',
-          exp: 1
+          name: 'TreeSnap',
         }
       ]
     }
@@ -65,7 +45,6 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: end;
-
   overflow: auto;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
@@ -75,7 +54,7 @@ export default {
   display: none; /* Safari and Chrome */
 }
 .project {
-  font-size: 48px;
+  font-size: 40px;
 }
 @media only screen and (max-width: 1000px) {
   .item {
@@ -83,7 +62,7 @@ export default {
     flex-direction: column-reverse;
   }
   .project {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 </style>

@@ -76,7 +76,7 @@ export default {
   display: none; /* Safari and Chrome */
 }
 .tech {
-  font-size: 48px;
+  font-size: 40px;
 }
 @media only screen and (max-width: 1000px) {
   .item {
@@ -84,7 +84,7 @@ export default {
     flex-direction: column-reverse;
   }
   .tech {
-    font-size: 20px;
+    font-size: 16px;
   }
   .tech-d {
     font-size: 12px;
