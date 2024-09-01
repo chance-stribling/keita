@@ -37,7 +37,7 @@ export default {
   align-items: end;
   justify-content: end;
   height: 100%;
-  padding: 2rem;
+  padding: 2rem 1rem;
   color: white;
   overflow: hidden;
 }
