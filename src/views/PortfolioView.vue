@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      technologies: [
+      projects: [
         {
           name: 'Laravel',
           exp: 2
@@ -44,9 +44,8 @@ export default {
 <template>
   <div class="main">
     <div class="content">
-      <div v-for="tech in technologies" class="mb-10 item">
-        <span class="tech-d">{{ tech.exp }} Year(s) Experience</span>
-        <span class="tech">{{ tech.name }}</span>
+      <div v-for="project in projects" class="mb-10 item">
+        <span class="project">{{ project.name }}</span>
       </div>
     </div>
   </div>
@@ -75,7 +74,7 @@ export default {
 .content::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
-.tech {
+.project {
   font-size: 48px;
 }
 @media only screen and (max-width: 1000px) {
@@ -83,11 +82,8 @@ export default {
     display: flex;
     flex-direction: column-reverse;
   }
-  .tech {
+  .project {
     font-size: 20px;
-  }
-  .tech-d {
-    font-size: 12px;
   }
 }
 </style>

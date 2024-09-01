@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/keita',
+  base: 'https://main.d2w2a3j5paymhh.amplifyapp.com/',
   plugins: [
     vue(),
   ],
