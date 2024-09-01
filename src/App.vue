@@ -89,7 +89,7 @@ import { RouterView } from 'vue-router'
   position: absolute;
   height: 300px;
   width: fit-content;
-  padding: 2rem;
+  padding: 2rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
