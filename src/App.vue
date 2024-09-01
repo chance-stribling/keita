@@ -39,7 +39,6 @@ import { RouterView } from 'vue-router'
 <style scoped>
 .bg {
   background-color: black;
-  position: absolute;
   color: white;
   height: 100dvh;
   width: 100svw;
